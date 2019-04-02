@@ -1,0 +1,14 @@
+#Classificação de dados em Ruby
+
+#integer
+integer_number = -20
+=> -20 
+integer_number.class
+=> Fixnum 
+
+Array
+Um tipo que nos permite armazenar uma lista ordenada de dados em um único objeto. Para definir um array você deve utilizar colchetes.
+
+Hash
+Tipo que representa uma coleção de dados organizados por chaves únicas e seus respectivos valores. Enquanto arrays são definidos com colchetes, hashes são definidos com chaves ‘{ }’
+
