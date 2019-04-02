@@ -1,0 +1,14 @@
+git status 
+
+(mostra o status de arquivos a serem add no git)
+
+
+git add * 
+git add 
+
+(nome do arquivo a ser adicionado)
+
+git commit -m "comentário sobre o arquivo"
+
+git push origin master 
+enviar estas alterações ao seu repositório remoto
