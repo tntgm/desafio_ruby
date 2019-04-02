@@ -1,14 +1,17 @@
+1)
 git status 
 
 (mostra o status de arquivos a serem add no git)
 
-
+2)
 git add * 
 git add 
 
 (nome do arquivo a ser adicionado)
 
+3)
 git commit -m "comentário sobre o arquivo"
 
+4)
 git push origin master 
 enviar estas alterações ao seu repositório remoto
