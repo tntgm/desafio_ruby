@@ -18,8 +18,8 @@ loop do
     
 opcao = gets.chomp.to_i
 
-
-    if opcao == 1
+    case opcao
+    when 1
         print "Digite o primeiro número : "
         num1 = gets.chomp.to_i
         print "Digite o segundo número  : "
@@ -27,7 +27,17 @@ opcao = gets.chomp.to_i
         total = (num1 + num2)
         puts "A soma de #{num1} + #{num2} é #{total}"
     
-    break if option == 0
-    system “clear”
+   when 0
+        puts "Até mais!!!"
+        break
+        system ‘clear’
+        
+    if total = gets.chomp.to_i
+        puts "#{total} é um número inteiro."
+    
+    else
+        total = gets.chomp.to_f
+        puts "#total} é um decimal."
     end
+end
 end
