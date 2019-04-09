@@ -7,3 +7,14 @@ puts ""
 #Será solicitado um segundo 
 print "Digite o segundo número  : "
 num2 = gets.chomp.to_i
+
+
+ if result = gets.chomp.to_i
+        puts "#{result} é um número inteiro."
+    
+    else
+        result = gets.chomp.to_f
+        puts "#{result} é um decimal
+        
+        
+        https://stackoverflow.com/questions/1020568/how-to-convert-a-string-to-lower-or-upper-case-in-ruby
