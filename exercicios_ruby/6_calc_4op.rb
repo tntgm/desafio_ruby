@@ -18,6 +18,7 @@ puts ""
   print "Digite uma opção: "
     
   opcao = gets.chomp.to_i
+  a_result = []
   
   system 'clear'    
   
@@ -71,19 +72,20 @@ puts ""
   end
 
   puts "----------------------------------------"
+  
+  a_result << result
+  
 
   if type == "INTEIRO".downcase
     result.to_i
     puts "Onde o número #{result.to_i} é um valor INTEIRO"
   else
     result.to_f
+    puts " array !!!!!#{a_result.last}"
     puts "Onde o número #{result.to_f} é um valor DECIMAL"
   
   end
   
-  a_result = []
-    puts a_result.push(result)
- 
   puts "----------------------------------------"    
       
   
